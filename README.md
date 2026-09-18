@@ -66,4 +66,9 @@ Zenodo record.
 
 ## Citation
 
-Please cite the Paper II manuscript. Zenodo archive DOI: **pending**; this README will be updated when the archived release has a registered DOI.
+Please cite the Paper II manuscript and the archived software release.
+
+- Version 1.0.0 DOI: [10.5281/zenodo.22830657](https://doi.org/10.5281/zenodo.22830657)
+- Concept DOI (all versions): [10.5281/zenodo.22830656](https://doi.org/10.5281/zenodo.22830656)
+
+Software citation metadata are provided in `CITATION.cff`.
