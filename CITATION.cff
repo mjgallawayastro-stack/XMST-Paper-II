@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software or validation material, please cite the associated paper and Zenodo record."
+title: "XMST Paper II: staged spatial, kinematic and reddening refinement"
+type: software
+authors:
+  - family-names: Gallaway
+    given-names: Mark J.
+date-released: 2026-09-18
+version: "1.0.0"
+license: MIT

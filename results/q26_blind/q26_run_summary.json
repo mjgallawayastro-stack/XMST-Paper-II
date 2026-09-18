@@ -1,0 +1,16 @@
+{
+  "order": "S1 -> kinematics -> reddening",
+  "input_stars": 2551,
+  "stage1_groups": 36,
+  "stage1_grouped_stars": 2551,
+  "stage1_percolation_limit_pc": 179.94806257581774,
+  "stage1_fracture_scale_pc": 61.67513222083073,
+  "after_kinematics_groups": 48,
+  "after_kinematics_grouped_stars": 2536,
+  "kinematic_orphans": 15,
+  "after_reddening_groups": 58,
+  "after_reddening_grouped_stars": 2526,
+  "reddening_orphans": 10,
+  "core_sha256": "cd95b3a87a0942732f007f7ca82c9986080706c4b46f575039efe00f4710eb32",
+  "q26_labels_used_in_clustering": false
+}

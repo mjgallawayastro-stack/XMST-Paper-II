@@ -1,0 +1,60 @@
+{
+  "mc_seed_base": 20260725,
+  "velocity_seed_offset": 30000000,
+  "delta_v_kms": 5.0,
+  "intrinsic_velocity_sigma_kms_per_component": 1.0,
+  "observational_error_seed_base": 20260831,
+  "velocity_error_sigmas_kms_per_component": [
+    0.0,
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "stage1_reconstruction": "Archived Table-3 fracture scale plus Euclidean fixed-threshold connectivity, mathematically identical to the connected components obtained by cutting the Euclidean MST at that scale.",
+  "stage1_group_count_check": "All 1000 realisations matched the archived Table-3 Stage-1 group count; the harness aborts on any mismatch.",
+  "s3_scope": "Frozen S3 applied only to the Stage-1 parent shared by T01/T02; if Stage 1 already separated them, the Stage-1 partition is retained unchanged.",
+  "zero_error_baseline": "Original archived Table-3 DeltaV=5 per-realisation results reused exactly; non-zero observational-error conditions rerun from the exact original intrinsic velocity field and target parent.",
+  "frozen_source_hashes": {
+    "run_xmst_s3.py": "cd95b3a87a0942732f007f7ca82c9986080706c4b46f575039efe00f4710eb32",
+    "run_xmsts2.py": "2cca819d10f9f7795cea25c09b05cff7c9b1c273a2c34d35dc83e815080bfcea",
+    "cdf_worker.py": "ac3bd48026f890339103345d95278e8cbe7447c791b2ee10f7c47668d040eafe"
+  },
+  "table3_zero_error_exact_match": true,
+  "table3_zero_error_metric_checks": {
+    "mean_completeness": {
+      "match": true,
+      "max_abs_diff": 0.0
+    },
+    "mean_purity": {
+      "match": true,
+      "max_abs_diff": 0.0
+    },
+    "mean_jaccard": {
+      "match": true,
+      "max_abs_diff": 0.0
+    },
+    "strict_recoveries_of_8": {
+      "match": true,
+      "max_abs_diff": 0.0
+    },
+    "formal_overlap_resolved": {
+      "match": true,
+      "max_abs_diff": 0.0
+    },
+    "overlap_best_groups_separate": {
+      "match": true,
+      "max_abs_diff": 0.0
+    },
+    "s3_accepted_splits": {
+      "match": true,
+      "max_abs_diff": 0.0
+    },
+    "s3_orphans": {
+      "match": true,
+      "max_abs_diff": 0.0
+    }
+  },
+  "n_realisations": 1000,
+  "n_rows": 5000
+}
